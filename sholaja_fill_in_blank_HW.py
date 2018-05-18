@@ -62,7 +62,7 @@ def play_game(fib_string, blanks):
             replaced.append(answer)
     replaced = " ".join(replaced)
     return replaced
-
+#checks if the user response is correct
 def ic(user_input, replaced, replacement, answer):
     correct_answer = 0
     #if statement to check for correct answer
